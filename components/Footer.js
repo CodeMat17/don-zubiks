@@ -15,7 +15,9 @@ const Footer = () => {
         </Text>
         <Flex mt='4' flexDir={["column", "row"]}>
           <VStack align='start'>
-            <Text fontWeight='semibold'>Follow Us:</Text>
+            <Text color='white' fontWeight='semibold'>
+              Follow Us:
+            </Text>
             <IconButton
               as='a'
               href='https://www.facebook.com/azubuike.donzubiks'
@@ -28,7 +30,7 @@ const Footer = () => {
           </VStack>
 
           <VStack align='start' mt={[6, 0]} ml={[0, 8]}>
-            <Text fontWeight='semibold'>
+            <Text color='white' fontWeight='semibold'>
               For business talk or further enquires:
             </Text>
             <IconButton
@@ -42,7 +44,7 @@ const Footer = () => {
             />
           </VStack>
         </Flex>
-        <Text mt='12' fontSize='lg'>
+        <Text color='white' mt='12' fontSize='lg'>
           &copy; All rights reserved. Don-Zubiks 2022
         </Text>
         <Text fontSize='sm' color='gray'>
