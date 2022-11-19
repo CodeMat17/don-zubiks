@@ -1,7 +1,9 @@
 import { Box, Text } from "@chakra-ui/react";
 import Head from "next/head";
+import AboutUs from "../components/AboutUs";
 import Carousel from "../components/Carousel";
 import NavHeader from "../components/NavHeader";
+import Products from "../components/Products";
 
 export const getStaticProps = async () => {
   // const data = await client.getEntries({
@@ -57,9 +59,8 @@ export default function Home({ slides }) {
       <Box>
         <NavHeader />
         <Carousel slides={slides} />
-        <Box px='6' mt='12'>
-          <Text textAlign='center' fontSize='2xl' fontWeight='bold'>Work in progress</Text>
-        </Box>
+        <AboutUs />
+        <Products />
       </Box>
     </div>
   );
