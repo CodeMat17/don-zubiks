@@ -1,4 +1,5 @@
 import { Box, HStack, Icon, Text } from "@chakra-ui/react"
+import DesktopMenuBtn from "./menu/DesktopMenuBtn";
 import MobileMenuBtn from "./menu/MobileMenuBtn";
 
 const NavHeader = () => {
@@ -13,6 +14,7 @@ const NavHeader = () => {
           Don-Zubiks
         </Text>
         <MobileMenuBtn />
+        <DesktopMenuBtn />
       </HStack>
     </Box>
   );

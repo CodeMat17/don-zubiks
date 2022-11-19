@@ -2,6 +2,7 @@ import { Box, Text } from "@chakra-ui/react";
 import Head from "next/head";
 import AboutUs from "../components/AboutUs";
 import Carousel from "../components/Carousel";
+import Footer from "../components/Footer";
 import NavHeader from "../components/NavHeader";
 import Products from "../components/Products";
 
@@ -61,6 +62,7 @@ export default function Home({ slides }) {
         <Carousel slides={slides} />
         <AboutUs />
         <Products />
+        <Footer />
       </Box>
     </div>
   );

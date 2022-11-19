@@ -17,7 +17,7 @@ const MobileMenuBtn = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Box>
+    <Box display={{md: 'none'}}>
       <IconButton
         onClick={onOpen}
         size='lg'
