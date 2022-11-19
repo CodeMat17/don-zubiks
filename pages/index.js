@@ -27,13 +27,13 @@ export const getStaticProps = async () => {
         {
           id: 1,
           title: "GATES",
-          desc: "We construct both stainless and rot-iron gates.",
+          desc: "We construct both stainless and wrougth-iron gates.",
           url: "/gates/gate.webp",
         },
         {
           id: 2,
           title: "HAND RAILS",
-          desc: "We design quality stainless and rot-iron hand rails.",
+          desc: "We design quality stainless and wrougth-iron hand rails.",
           url: "/gates/rail.webp",
         },
         {
