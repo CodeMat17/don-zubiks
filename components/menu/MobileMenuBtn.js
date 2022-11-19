@@ -22,7 +22,7 @@ const MobileMenuBtn = () => {
         onClick={onOpen}
         size='lg'
         variant='ghost'
-        icon={<HiMenuAlt3 size={32} />}
+        icon={<HiMenuAlt3 size={32} color='white' />}
       />
       <Drawer isOpen={isOpen} placement='right' onClose={onClose}>
         <DrawerOverlay />

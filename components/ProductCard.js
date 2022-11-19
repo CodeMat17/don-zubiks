@@ -5,7 +5,7 @@ import Link from "next/link";
 const ProductCard = ({ img, title, desc, url }) => {
   return (
     <Box
-      maxW='250px'
+      maxW='280px'
       mx='auto'
       border='1px'
       borderColor='gray'
