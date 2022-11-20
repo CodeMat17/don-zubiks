@@ -1,5 +1,5 @@
 import { Box, Heading, SimpleGrid } from "@chakra-ui/react";
-import GateCard from "../components/cards/GateCard";
+import Card from "../components/cards/Card";
 import { client } from "../contentfulClient";
 
 export const getStaticProps = async () => {
@@ -31,7 +31,7 @@ const Gates = ({ cleanGates }) => {
       <SimpleGrid mt='12' columns={[1, 1, 2, 3]} spacing='40px'>
         {cleanGates &&
           cleanGates.map((item, index) => {
-            return <GateCard key={index} index={index + 1} gate={item.images.file.url} />;
+            return <Card key={index} index={index + 1} img={item.images.file.url} />;
           })}
       </SimpleGrid>
     </Box>

@@ -98,6 +98,18 @@ const MobileMenuBtn = () => {
                 ACCESSORIES
               </Button>
             </Link>
+
+            <Link href='/razor-designs'>
+              <Button
+                mb='4'
+                size='lg'
+                onClick={onClose}
+                w='full'
+                variant='ghost'
+                letterSpacing='1px'>
+                RAZOR-DESIGNS
+              </Button>
+            </Link>
           </DrawerBody>
 
           <DrawerFooter>

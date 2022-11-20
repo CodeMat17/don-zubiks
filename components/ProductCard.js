@@ -14,13 +14,7 @@ const ProductCard = ({ img, title, desc, url }) => {
       <VStack>
         <Box rounded='full' overflow='hidden'>
           <Box pos='relative' w='100px' h='100px'>
-            <Image
-              alt=''
-              priority
-              layout='fill'
-              objectFit='cover'
-              src={img}
-            />
+            <Image alt='' priority layout='fill' objectFit='cover' src={img} />
           </Box>
         </Box>
       </VStack>
@@ -34,6 +28,10 @@ const ProductCard = ({ img, title, desc, url }) => {
           <Button
             color='white'
             bgGradient='linear(to-l, #7928CA, #FF0080)'
+            _hover={{
+              color: "black",
+              bgGradient: "linear(to-r, #7928CA, #FF0080)",
+            }}
             w='full'>
             CHECKOUT
           </Button>

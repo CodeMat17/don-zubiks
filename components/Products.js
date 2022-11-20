@@ -30,6 +30,13 @@ const cards = [
     url: "/accessories",
     desc: "We deal in all types of accessories for metal construction and for buildings.",
   },
+  {
+    id: 4,
+    img: "/products/razor.webp",
+    title: "RAZOR PAN DESIGN",
+    url: "/razor-designs",
+    desc: "We also do razor pan designs of asorted shapes and designs.",
+  },
 ];
 
 const Products = () => {

@@ -7,85 +7,73 @@ export const getStaticProps = () => {
       data: [
         {
           id: 1,
-          img: "/accessories/1.webp",
+          img: "/razor/10.webp",
         },
         {
           id: 2,
-          img: "/accessories/2.webp",
+          img: "/razor/14.webp",
         },
         {
           id: 3,
-          img: "/accessories/3.webp",
+          img: "/razor/19.webp",
         },
         {
           id: 4,
-          img: "/accessories/4.webp",
+          img: "/razor/25.webp",
         },
         {
           id: 5,
-          img: "/accessories/5.webp",
+          img: "/razor/26.webp",
         },
         {
           id: 6,
-          img: "/accessories/7.webp",
+          img: "/razor/27.webp",
         },
         {
           id: 7,
-          img: "/accessories/8.webp",
+          img: "/razor/29.webp",
         },
         {
           id: 8,
-          img: "/accessories/9.webp",
+          img: "/razor/30.webp",
         },
         {
           id: 9,
-          img: "/accessories/10.webp",
+          img: "/razor/31.webp",
         },
         {
           id: 10,
-          img: "/accessories/11.webp",
+          img: "/razor/34.webp",
         },
         {
           id: 11,
-          img: "/accessories/12.webp",
+          img: "/razor/36.webp",
         },
         {
           id: 12,
-          img: "/accessories/13.webp",
+          img: "/razor/37.webp",
         },
         {
           id: 13,
-          img: "/accessories/14.webp",
+          img: "/razor/38.webp",
         },
         {
           id: 14,
-          img: "/accessories/15.webp",
+          img: "/razor/39.webp",
         },
         {
           id: 15,
-          img: "/accessories/16.webp",
-        },
-        {
-          id: 16,
-          img: "/accessories/17.webp",
-        },
-        {
-          id: 17,
-          img: "/accessories/18.webp",
-        },
-        {
-          id: 18,
-          img: "/accessories/19.webp",
+          img: "/razor/41.webp",
         },
       ],
     },
   };
 };
 
-const Accessories = ({ data }) => {
+const razor = ({ data }) => {
   return (
     <Box px='6' py='20'>
-      <Heading textAlign='center'>ACCESSORIES</Heading>
+      <Heading textAlign='center'>RAZOR PAN DESIGNS</Heading>
       <SimpleGrid mt='12' columns={[1, 1, 2, 3]} spacing='40px'>
         {data &&
           data.map((item, index) => {
@@ -96,4 +84,4 @@ const Accessories = ({ data }) => {
   );
 };
 
-export default Accessories;
+export default razor;

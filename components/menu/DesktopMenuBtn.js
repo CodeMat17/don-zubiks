@@ -51,6 +51,15 @@ const DesktopMenuBtn = () => {
             ACCESSORIES
           </Button>
         </Link>
+        <Link href='/razor-designs'>
+          <Button
+            _hover={{ bg: "gray.700" }}
+            color='white'
+            // size='lg'
+            variant='ghost'>
+            RAZOR-DESIGNS
+          </Button>
+        </Link>
       </HStack>
     </Box>
   );
