@@ -58,11 +58,11 @@ export default function Home({ slides }) {
       </Head>
 
       <Box>
-        <NavHeader />
+        {/* <NavHeader /> */}
         <Carousel slides={slides} />
         <AboutUs />
         <Products />
-        <Footer />
+        {/* <Footer /> */}
       </Box>
     </div>
   );
